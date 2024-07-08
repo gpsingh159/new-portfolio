@@ -134,6 +134,7 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
+    line-height: 1.5em;
 }
 .tab-contents ul li span{
     font-size: 14px;
@@ -351,7 +352,7 @@ nav [class*="fa"] {
 @media only screen and (max-width: 600px){
    
     .header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/background.png);
 
     }
     .heae
@@ -398,6 +399,12 @@ nav [class*="fa"] {
     }
     .about-col-2{
         font-size: 14px;
+        line-height: 2em;
+
+    }
+    .about-me {
+        line-height: 2em;
+        
     }
     .tab-links{
         font-size: 16px;
